@@ -1,7 +1,11 @@
+  body {
+      font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+  
   #header {
       min-height: 205px;
-      font-family: 'Bungee', cursive;
-      background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXWMQ5kIsIOw9Zpq4MZ19vMbQfYH2bOPxMU-wSXgXUGn17kidy");
+      font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      background: url("https://image.freepik.com/foto-gratis/habitacion-borrosa-con-suelo-de-madera_1203-593.jpg");
       /* fallback for old browsers */
       background-size: 100%;
       -webkit-clip-path: polygon(50% 0%, 100% 0, 100% 75%, 50% 100%, 0% 75%, 0 0);
@@ -10,14 +14,14 @@
   }
   
   #guidNumber {
-      color: #CE5848;
+      color: #28BFB7;
   }
   
   .button {
       position: relative;
       height: 60px;
       width: 200px;
-      background: #CE5848;
+      background: #28BFB7;
       border-radius: 8px;
       text-align: center;
       cursor: pointer;
@@ -95,7 +99,7 @@
   }
   
   .button.active {
-      background: #4CAF50;
+      background: #28BFB7;
   }
   
   .button.active .submit {
@@ -126,7 +130,7 @@
       z-index: 999;
       font-size: 1.5rem;
       font-weight: bold;
-      font-family: 'Bungee', cursive;
+      font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   }
   
   #backToHome a {
@@ -137,10 +141,10 @@
   
   .title {
       margin-top: 5px;
-      color: #CE5848;
-      font-family: 'Bungee', cursive;
-      font-size: 2rem;
-      text-shadow: -1px -1px 0 #C6C6C6, 1px -1px 0 #C6C6C6, -1px 1px 0 #C6C6C6, 1px 1px 0 #C6C6C6;
+      color: #28BFB7;
+      font-family: 'Sedgwick Ave', cursive;
+      font-size: 2.5rem;
+      /* text-shadow: -1px -1px 0 #F0F0F0, 1px -1px 0 #F0F0F0, -1px 1px 0 #F0F0F0, 1px 1px 0 #F0F0F0; */
   }
   
   #next-steps {
@@ -155,11 +159,12 @@
   }
   
   #home-button {
-      font-size: 2.5rem;
-      color: #CE5848;
+      font-family: 'Sedgwick Ave', cursive;
+      font-size: 1.5rem;
+      color: #28BFB7;
       margin-left: 3%;
       margin-top: 3%;
       z-index: 999;
       position: relative;
-      text-shadow: -.8px -.8px 0 #C6C6C6, .8px -.8px 0 #C6C6C6, -.8px .8px 0 #C6C6C6, .8px .8px 0 #C6C6C6;
+      /* text-shadow: -.8px -.8px 0 #F0F0F0, .8px -.8px 0 #F0F0F0, -.8px .8px 0 #F0F0F0, .8px .8px 0 #F0F0F0; */
   }

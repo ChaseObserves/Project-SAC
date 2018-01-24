@@ -1,9 +1,10 @@
 #header {
-    min-height: 205px;
-    font-family: 'Bungee', cursive;
-    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXWMQ5kIsIOw9Zpq4MZ19vMbQfYH2bOPxMU-wSXgXUGn17kidy");
-    /* fallback for old browsers */
-    background-size: 100%;
+    min-height: 300px;
+    background: linear-gradient( rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("http://www.riselegal.com.au/wp-content/uploads/2015/04/interior-blurred1.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     -webkit-clip-path: polygon(50% 0%, 100% 0, 100% 75%, 50% 100%, 0% 75%, 0 0);
     clip-path: polygon(50% 0%, 100% 0, 100% 75%, 50% 100%, 0% 75%, 0 0);
     margin-bottom: 100px;
@@ -17,15 +18,16 @@
     color: #CE5848!important;
     margin-bottom: 2%;
     border: 1px solid gainsboro;
-    background: url("https://s-media-cache-ak0.pinimg.com/originals/b7/d8/28/b7d828c8d9c5b67d46b63caf00ab1c2e.jpg")
+    background: url("https://www.toptal.com/designers/subtlepatterns/patterns/bgnoise_lg.png");
+    margin-bottom: 1rem;
 }
 
 .main-title {
     margin-top: 70px;
-    color: #CE5848;
-    font-family: 'Bungee', cursive;
-    font-size: 2rem;
-    text-shadow: -1px -1px 0 #C6C6C6, 1px -1px 0 #C6C6C6, -1px 1px 0 #C6C6C6, 1px 1px 0 #C6C6C6;
+    color: white;
+    font-family: 'Sedgwick Ave', cursive;
+    font-size: 7rem;
+    /* text-shadow: -1px -1px 0 #C6C6C6, 1px -1px 0 #C6C6C6, -1px 1px 0 #C6C6C6, 1px 1px 0 #C6C6C6; */
 }
 
 .title {
@@ -38,38 +40,43 @@
 
 .name-title {
     margin-top: 50px;
-    color: #CE5848;
+    color: #868e96;
     font-family: 'Bungee', cursive;
     font-size: 1rem;
 }
 
 .family-image-dashboard {
-    border-radius: 999px;
-    border: 5px solid whitesmoke;
-    height: 9rem;
-    width: 9rem;
+    border: solid #2222;
+    border-image: none;
+    border-radius: 0px 50px 0px 50px;
+    -moz-border-radius: 0px 50px 0px 50px;
+    -webkit-border-radius: 0px 50px 0px 50px;
+    border-width: 6px;
+    height: 7rem;
+    width: 8rem;
     z-index: 999!important;
-    margin-bottom: 10px;
 }
 
 #home-button {
-    font-size: 2.5rem;
-    color: #CE5848;
-    margin-left: 3%;
-    margin-top: 3%;
+    font-family: 'Sedgwick Ave', cursive;
+    font-size: 1.5rem;
+    color: white;
+    margin-left: -16%;
+    margin-top: 17%;
     z-index: 999;
     position: relative;
-    text-shadow: -.8px -.8px 0 #C6C6C6, .8px -.8px 0 #C6C6C6, -.8px .8px 0 #C6C6C6, .8px .8px 0 #C6C6C6;
+    text-decoration: none;
 }
 
 #dashboard-button {
-    font-size: 2.5rem;
-    color: #CE5848;
-    margin-left: 1%;
-    margin-top: 2%;
+    font-family: 'Sedgwick Ave', cursive;
+    font-size: 1.5rem;
+    color: white;
+    margin-left: -30%;
+    margin-top: 17%;
     z-index: 999;
     position: relative;
-    text-shadow: -.8px -.8px 0 #C6C6C6, .8px -.8px 0 #C6C6C6, -.8px .8px 0 #C6C6C6, .8px .8px 0 #C6C6C6;
+    text-decoration: none;
 }
 
 #errorMessage {
@@ -99,16 +106,64 @@
     -webkit-filter: blur(5px) grayscale(50%);
 }
 
-.chore-description{
+.chore-description {
     font-size: 1.5rem;
-    color: #CE5848;
+    color: #28BFB7;
+    padding-bottom: 1rem;
 }
 
-.chore-name{
+.chore-name {
     font-family: 'Bungee', cursive;
-
+    padding-top: 1rem;
 }
 
-.newChore{
+.newChore {
     margin-top: 5%;
+    margin: 0 auto;
+    width: 75%;
+    margin-bottom: 1rem;
+    padding-bottom: 1.5rem;
+}
+
+#main-content {
+    margin-bottom: 100px;
+}
+
+#next-steps {
+    background: linear-gradient( rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("https://png.pngtree.com/thumb_back/fw800/back_pic/04/09/39/455815963e6f920.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    -webkit-clip-path: polygon(48% 7%, 100% 0, 100% 100%, 50% 100%, 0 100%, 0 15%);
+    clip-path: polygon(48% 7%, 100% 0, 100% 100%, 50% 100%, 0 100%, 0 15%);
+    height: 20rem;
+}
+
+.change-role {
+    background: #bcd9d7;
+}
+
+.change-points {
+    background: #28BFB7;
+}
+
+.change-points.hover {
+    background: #868e96;
+}
+
+.reject-button {
+    color: #FFFFFF;
+    background-color: #28BFB7;
+    border-color: #919191;
+}
+
+.reject-button.hover {
+    background: #868e96;
+}
+
+.accept-button {
+    color: #FFFFFF;
+    background-color: #bcd9d7;
+    border-color: #919191;
 }

@@ -14,6 +14,8 @@
     <script src="https://www.paypalobjects.com/api/checkout.js"></script>
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/adminView.css">
+    <link href="https://fonts.googleapis.com/css?family=Sedgwick+Ave" rel="stylesheet">
+
 
 
 </head>
@@ -25,22 +27,26 @@
 
     <div id="header">
         <div class="row">
-            <div class="col-12 text-left">
-                <a href="/">
-                    <i class="fa fa-home home-button" aria-hidden="true" id="home-button"></i>
+            <div class="col-2 text-center">
+                <a href="/" style="text-decoration: none;">
+                    <h4 id="home-button">Home</h4>
                 </a>
-
-                <a href="/dashboard">
-                    <i class="fa fa-tachometer" aria-hidden="true" id="dashboard-button"></i>
+            </div>
+            <div class="col-2 text-left">
+                <a href="/dashboard" style="text-decoration: none;">
+                    <h4 id="dashboard-button">Dashboard</h4>
                 </a>
             </div>
         </div>
         <div class="row" style="margin-top: -5%;">
             <div class="col-12">
-                <h1 class="animation-target text-center main-title">Admin View</h1>
+                <h1 class="text-center main-title">Admin View</h1>
             </div>
         </div>
     </div>
+
+
+
     <div class="row text-danger text-center" id="errorMessage">
         <div class="col-12">
             <h1>UNAUTHORIZED</h1>
@@ -51,11 +57,17 @@
             <p>Your Not Supposed To Be Here</p>
         </div>
     </div>
+    <div class="container">
+        <hr>
+        <br>
+        <br>
 
+    </div>
     <!-- END OF HEADER SECTION -->
 
 
     <div class="container" id="main-content" style="margin-top: -7%">
+
         <br>
         <br>
         <div class="row">
@@ -87,13 +99,43 @@
                 </div>
                 <div id="chores">
 
-                    
+
                 </div>
 
             </div>
         </div>
     </div>
+    <div class="container">
+        <hr>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+    </div>
 
+
+    <div id="next-steps">
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="row justify-text-center">
+            <div class="col-3"></div>
+            <div class="col-6 text-center text-white">
+                <h1>What Now?</h1>
+            </div>
+            <hr>
+        </div>
+        <div class="row">
+            <div class="col-3"></div>
+            <div class="col-6 text-white">
+                <p>You, the parents, have the power to accept or reject the chores "checked off" by your children. If you like the work they have done than you can click accept and grant them thier points or you can reject their lack of completion and they
+                    can try again. The rejected chore will kick back to the dashboard and the child will see that the chore needs some more effort.
+                </p>
+            </div>
+        </div>
+    </div>
 
 
 
@@ -180,7 +222,7 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-outline-danger" data-dismiss="modal">Close</button>
-                    <div class = "newPointsSubmit" id="paypal-button-container"></div>
+                    <div class="newPointsSubmit" id="paypal-button-container"></div>
                 </div>
             </div>
         </div>
